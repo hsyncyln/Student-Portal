@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\KUSYS.Web.csproj": {}
+    "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\KUSYS.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\KUSYS.Core.csproj": {
+    "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\KUSYS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\KUSYS.Core.csproj",
+        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\KUSYS.Core.csproj",
         "projectName": "KUSYS.Core",
-        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\KUSYS.Core.csproj",
+        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\KUSYS.Core.csproj",
         "packagesPath": "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\obj\\",
+        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj": {
-                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj"
+              "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj": {
+                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj": {
+    "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj",
         "projectName": "KUSYS.Domain",
-        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj",
+        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj",
         "packagesPath": "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\KUSYS.Web.csproj": {
+    "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\KUSYS.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\KUSYS.Web.csproj",
+        "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\KUSYS.Web.csproj",
         "projectName": "KUSYS.Web",
-        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\KUSYS.Web.csproj",
+        "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\KUSYS.Web.csproj",
         "packagesPath": "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\obj\\",
+        "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -195,11 +195,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\KUSYS.Core.csproj": {
-                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Core\\KUSYS.Core.csproj"
+              "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\KUSYS.Core.csproj": {
+                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Core\\KUSYS.Core.csproj"
               },
-              "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj": {
-                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj"
+              "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj": {
+                "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj"
               }
             }
           }

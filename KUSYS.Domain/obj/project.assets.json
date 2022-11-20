@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj",
       "projectName": "KUSYS.Domain",
-      "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj",
+      "projectPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj",
       "packagesPath": "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CQC1xF1r1neLOF+LJq4COtq6nSnCkJlXM5asQ49uCmQRACVMSJXowspekiaT7BXIra0Gl9KXmzL4BqjUrJ4gTQ==",
+  "dgSpecHash": "dXSxwgCD1ZjGdljanwqZAG1AOtqc3MWQoSc+yBQJKmljl/O6rzn63K/s9Cu0AtHGDdmA67yXk9DXu6QPscMDwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Web\\KUSYS.Web.csproj",
+  "projectFilePath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Web\\KUSYS.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

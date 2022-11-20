@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KFtfIqMTqy0INyi3hHG93tHp2QcKHmpTvB/UkAEgnoVKJdwSeP0YvipiDaCQvGtKEmFFTZduS9MD+h36fMZgfQ==",
+  "dgSpecHash": "E89nTKrN1LzDANqfCGO30/w3DU172AX0uvI3Xhe3Hoe0LmMJjtBUNdShwK201p9WFq/q8lmkRraKZrqcqvLOGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\huseyin.ceylan\\source\\repos\\KUSYS-Demo\\KUSYS.Domain\\KUSYS.Domain.csproj",
+  "projectFilePath": "C:\\Users\\huseyin.ceylan\\source\\repos\\Student-Portal\\KUSYS.Domain\\KUSYS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huseyin.ceylan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
