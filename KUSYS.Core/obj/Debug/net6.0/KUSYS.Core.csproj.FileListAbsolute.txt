@@ -1,0 +1,17 @@
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Core.deps.json
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Core.runtimeconfig.json
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Core.dll
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Core.pdb
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Domain.dll
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\bin\Debug\net6.0\KUSYS.Domain.pdb
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.csproj.AssemblyReference.cache
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.AssemblyInfoInputs.cache
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.AssemblyInfo.cs
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.csproj.CoreCompileInputs.cache
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.csproj.CopyComplete
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.dll
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\refint\KUSYS.Core.dll
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.pdb
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\KUSYS.Core.genruntimeconfig.cache
+C:\Users\huseyin.ceylan\source\repos\KUSYS-Demo\KUSYS.Core\obj\Debug\net6.0\ref\KUSYS.Core.dll
