@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>KUSYS.Web</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <BaseIntermediateOutputPath>C:\Users\huseyin.ceylan\source\dev\KUSYS-Demo\KUSYS.Web\obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KUSYS.Core\KUSYS.Core.csproj" />
+    <ProjectReference Include="..\KUSYS.Domain\KUSYS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
