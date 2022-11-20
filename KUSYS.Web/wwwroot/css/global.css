@@ -1,0 +1,8 @@
+﻿#messageBox {
+    z-index: 9999;
+    margin-top: 3%;
+}
+
+    #messageBox .close {
+        float: right !important;
+    }

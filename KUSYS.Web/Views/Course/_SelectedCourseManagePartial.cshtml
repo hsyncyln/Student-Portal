@@ -1,0 +1,12 @@
+﻿@model List<CourseDto>
+@{
+	int studentId = ViewBag.StuentId;
+}
+<div>
+	@foreach(var item in Model){
+		<button onclick="Course.RemoveSelectedCourse('@studentId','@item.Id')"> - </button>
+		<span>@item.Code - @item.Name</span>
+		<br />
+	}
+</div>
+

@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Öğrenciler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="pvStudents"></div>
+
+<script src="~/js/student.js"></script>
+
+<script>
+    $(function(){
+        Student.LoadStudents();
+    });
+</script>

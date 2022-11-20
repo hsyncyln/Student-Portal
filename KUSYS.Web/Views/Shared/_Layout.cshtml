@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KUSYS</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/global.css" asp-append-version="true" />
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-grid.css" rel="stylesheet" />
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap-reboot.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-reboot.css" rel="stylesheet" />
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap-utilities.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-utilities.css" rel="stylesheet" />
+
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/global.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KUSYS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+     <!-- Modal -->
+   <div class="modal fade" id="messageBox" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <br />
+                <div class="modal-header clearfix text-left">
+                    <h5 id="messageBoxTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        <i class="pg-close_line">X</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="messageBoxBody"></div>
+                    <div class="row">
+                        <div class="col-sm-12 m-t-30 sm-m-t-10 text-left" id="messageBoxButtons"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@model List<CourseDto>
+
+
+<table class="table table-bordered table-striped" id="tbStudentCourses">
+
+	<thead>
+		<tr>
+			<th>DERS KODU</th>
+			<th>DERS ADI</th>
+			
+		</tr>
+	</thead>
+
+	<tbody>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Code</td>
+				<td>@item.Name</td>
+			</tr>
+		}
+
+	</tbody>
+
+</table>
+
+
+<script>
+	$(function () {
+		$("#tbStudentCourses").DataTable();
+	});
+</script>

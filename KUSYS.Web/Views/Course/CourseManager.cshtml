@@ -1,0 +1,20 @@
+﻿@model int
+@{
+    ViewData["Title"] = "DERS YÖNETİMİ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="pvSelectedCourses"></div>
+
+<br />
+
+<div id="pvSelectableCourses"></div>
+
+<script src="~/js/course.js"></script>
+
+<script>
+    $(function () {
+        Course.LoadSelectedCourses('@Model');
+        Course.LoadSelectableCourses('@Model');
+    });
+</script>
