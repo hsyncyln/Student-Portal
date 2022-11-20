@@ -1,10 +1,11 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+/.vs
 /KUSYS.Web/appsettings.json
-/.vs/
 /KUSYS.Domain/obj/
 /KUSYS.Domain/bin/
 /KUSYS.Core/obj/
 /KUSYS.Core/bin/
+/KUSYS.Web/obj/
+/KUSYS.Web/bin/
