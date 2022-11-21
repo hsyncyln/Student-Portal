@@ -1,4 +1,6 @@
 ﻿using KUSYS.Core.Helper;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KUSYS.Web.Middleware
 {
@@ -19,8 +21,7 @@ namespace KUSYS.Web.Middleware
 		/// <returns></returns>
 		public async Task InvokeAsync(HttpContext httpContext, ILogHelper log)
 		{
-			
-			log.Write(DateTime.Now.Ticks.ToString());
+			log.Write(DateTime.Now.Ticks.ToString() + " " + httpContext.Request.Path);
 			await _next(httpContext);
 		}
 	}

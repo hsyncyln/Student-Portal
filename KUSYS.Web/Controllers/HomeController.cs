@@ -1,4 +1,5 @@
 ﻿using KUSYS.Core.Dto;
+using KUSYS.Core.Helper;
 using KUSYS.Core.Implementations;
 using KUSYS.Core.Services;
 using KUSYS.Domain.DBContext;
@@ -42,6 +43,7 @@ namespace KUSYS.Web.Controllers
 
                 if(user != null)
                 {
+                    GlobalHelper.UserDto = user;
 
 					if (user.UserType == UserType.Admin)
 						return RedirectToAction("Home","Admin");

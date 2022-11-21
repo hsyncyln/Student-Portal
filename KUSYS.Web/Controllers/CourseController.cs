@@ -16,7 +16,8 @@ namespace KUSYS.Web.Controllers
 
 		public IActionResult CourseManager(int studentId)
 		{
-			return View(studentId);
+			ViewBag.StudentId = studentId;
+			return View();
 		}
 		public PartialViewResult SelectedCourseManagePartial(int studentId)
 		{

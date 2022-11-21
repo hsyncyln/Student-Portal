@@ -22,7 +22,7 @@
 
 				<td>
 					<a data-toggle='modal' data-target='#messageBox' href='#' onclick="Student.GetStudentCoursesPopUp('@(item.FirstName + " " + item.LastName)','@item.Id')">DERS LİSTESİ</a></td>
-				<td><a href="#" onclick = "Student.GetCourseManager('@item.Id')"> DERSLERİ YÖNET </a></td>
+				<td><a href="/Course/CourseManager?studentId=@item.Id"> DERSLERİ YÖNET </a></td>
 				
 			</tr>
 		}

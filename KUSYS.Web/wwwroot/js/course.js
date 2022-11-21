@@ -9,11 +9,17 @@
     },
 
     AddSelectableCourse: function (studentId, courseId) {
-        ajax.post("/Course/AddSelectableCourse", { 'studentId': studentId, 'courseId': courseId });
+        ajax.post("/Course/AddSelectableCourse", { 'studentId': studentId, 'courseId': courseId }, function (response) {
+            Course.LoadSelectableCourses(studentId);
+            Course.LoadSelectedCourses(studentId);
+        });
     },
 
     RemoveSelectedCourse: function (studentId, courseId) {
-        ajax.post("/Course/RemoveSelectedCourse", { 'studentId': studentId, 'courseId': courseId });
+        ajax.post("/Course/RemoveSelectedCourse", { 'studentId': studentId, 'courseId': courseId }, function (response) {
+            Course.LoadSelectableCourses(studentId);
+            Course.LoadSelectedCourses(studentId);
+        });
     }
 
 };

@@ -1,12 +1,19 @@
 ﻿@model List<CourseDto>
 @{
-	int studentId = ViewBag.StuentId;
+	int studentId = ViewBag.StudentId;
 }
-<div>
-	@foreach(var item in Model){
-		<button onclick="Course.RemoveSelectedCourse('@studentId','@item.Id')"> - </button>
-		<span>@item.Code - @item.Name</span>
-		<br />
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Seçili Dersler</h4>
+  <br />
+  <br />
+	@foreach (var item in Model)
+	{
+		<p> 
+			<button onclick="Course.RemoveSelectedCourse('@studentId','@item.Id')"> - </button> 
+			@item.Code - @item.Name
+		</p>
+
+		<hr />
 	}
 </div>
-

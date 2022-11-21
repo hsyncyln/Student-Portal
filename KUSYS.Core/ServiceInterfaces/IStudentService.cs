@@ -33,5 +33,10 @@ namespace KUSYS.Core.Implementations
 		/// The method that returns the requested student information
 		/// </summary>
 		StudentDto GetStudent(int studentId);
-    }
+
+		/// <summary>
+		/// The method that returns the requested studentId using by userId
+		/// </summary>
+		int? GetStudentIdByUserId(int userId);
+	}
 }

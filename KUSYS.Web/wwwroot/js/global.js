@@ -5,8 +5,8 @@ var ajax = {
         $.get(url, parameters);
     },
 
-    post: function (url, parameters) {
-        $.post(url, parameters);
+    post: function (url, parameters, callback) {
+        $.post(url, parameters, callback);
     },
 
     load: function (element, url, parameters, callback) {
@@ -29,6 +29,6 @@ var ajax = {
     $("#messageBox").fadeTo(300, 1);
 }
 
-$("#messageBox .close").click(function () {
+function MessageBoxClose() {
     $("#messageBox").hide();
-});
+}

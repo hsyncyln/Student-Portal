@@ -8,8 +8,5 @@
         Modal(studentName, '/Course/StudentCoursePartial', { 'studentId': studentId });
     },
 
-    GetCourseManager: function (studentId) {
-        ajax.get('/Course/CourseManager', { 'studentId': studentId });
-    },
 };
 

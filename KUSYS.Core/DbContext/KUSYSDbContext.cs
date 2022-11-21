@@ -1,4 +1,5 @@
 ﻿using KUSYS.Core.Dto;
+using KUSYS.Core.Helper;
 using KUSYS.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 //using Microsoft.EntityFrameworkCore;
@@ -127,7 +128,7 @@ namespace KUSYS.Domain.DBContext
 			foreach (var entity in ChangeTracker.Entries<EntityBase>().Where(x => x.State == EntityState.Added).ToList())
 			{
 				entity.Entity.InsertDate = DateTime.Now;
-				entity.Entity.InsertUserId = 1;
+				entity.Entity.InsertUserId = GlobalHelper.UserDto.Id;
 				entity.Entity.IsDeleted = false;
 			}
 		}
@@ -140,7 +141,7 @@ namespace KUSYS.Domain.DBContext
 			foreach (var entity in ChangeTracker.Entries<EntityBase>().Where(x => x.State == EntityState.Modified).ToList())
 			{
 				entity.Entity.UpdateDate = DateTime.Now;
-				entity.Entity.UpdateUserId = null;
+				entity.Entity.UpdateUserId = GlobalHelper.UserDto.Id;
 			}
 		}
 		/// <summary>
@@ -151,7 +152,7 @@ namespace KUSYS.Domain.DBContext
 			foreach (var entity in ChangeTracker.Entries<EntityBase>().Where(x => x.State == EntityState.Deleted).ToList())
 			{
 				entity.Entity.IsDeleted = true;
-				entity.Entity.UpdateUserId = 1;
+				entity.Entity.UpdateUserId = GlobalHelper.UserDto.Id;
 				entity.Entity.UpdateDate = DateTime.Now;
 				entity.State = EntityState.Modified;
 			}

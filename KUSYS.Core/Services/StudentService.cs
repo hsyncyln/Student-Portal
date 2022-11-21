@@ -27,7 +27,6 @@ namespace KUSYS.Core.Services
                 student.BirthDate = dto.BirthDate;
 				KUSYSDB.SaveChanges();
 			}
-			//Öğrenci yok
         }
 
         public void DeleteStudent(int studentId)
@@ -38,7 +37,6 @@ namespace KUSYS.Core.Services
                 KUSYSDB.Students.Remove(student);
                 KUSYSDB.SaveChanges();
             }
-            //Öğrenci yok
         }
 		public List<StudentDto> GetAllActiveStudents()
         {
@@ -61,7 +59,13 @@ namespace KUSYS.Core.Services
 
 			return model;
 		}
+		public int? GetStudentIdByUserId(int userId)
+		{
+			var studentId = KUSYSDB.Students.Where(x => !x.IsDeleted && x.UserId == userId)
+				.Select(x => x.Id).FirstOrDefault();
 
+			return studentId;
+		}
 		private Student ConvertToStudent(StudentDto dto)
         {
             var entity = new Student();
@@ -75,6 +79,7 @@ namespace KUSYS.Core.Services
 		private StudentDto ConvertToStudentDto(Student entity)
 		{
 			var dto = new StudentDto();
+            dto.Id = entity.Id;
 			dto.FirstName = entity.FirstName;
 			dto.LastName = entity.LastName;
 			dto.BirthDate = entity.BirthDate;
